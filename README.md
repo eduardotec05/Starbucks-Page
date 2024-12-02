@@ -26,13 +26,24 @@ El proyecto consta de los siguientes archivos principales:
 4. **Pie de página:**
    - Espacio reservado para enlaces legales, accesibilidad y redes sociales.
 
-## Captura de Pantalla
+## Actividad 2
 ![Captura de la página](https://i.postimg.cc/P5GjNnmK/Captura-de-pantalla-2024-11-28-005308.png)
 
 La página incluye varias secciones con imágenes atractivas y colores inspirados en las campañas de Starbucks. 
 
 ---
+## Actividad 3
+![Captura de la página](https://i.postimg.cc/XvB1XcTF/image.png)
 
+Creación de la página de rewards en HTML. 
+
+---
+## Actividad 4
+![Captura de la página](https://i.postimg.cc/BQNVzvT8/image.png)
+
+Dandole estilo al rewards.
+
+---
 ## Cómo Ejecutar el Proyecto
 
 ### Requisitos
