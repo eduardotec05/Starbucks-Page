@@ -64,7 +64,7 @@ nav a {
 }
 
 .btn-join {
-    background-color: #00754a;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -502,15 +502,75 @@ main {
     margin-top: 15px;
 }
 
-/* Estilo específico para secciones con un solo item */
-.menu-categories:has(.category-grid:only-child) .category-grid {
-    display: block;
-    max-width: 200px; /* Ancho del item */
-    margin-left: 0; /* Alineación izquierda */
-}
+/*diseño responsivo para telefonos*/
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 
-/* Mantener el estilo del item individual */
-.menu-categories:has(.category-grid:only-child) .category-item {
-    text-align: center;
-    width: 100%;
+    header {
+        padding: 10px 20px;
+    }
+
+    #nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container img {
+        width: 90%;
+    }
+
+    .container-starbucks, .container-starbucks-red {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .info-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-icons a img {
+        width: 30px;
+        height: 30px;
+    }
+}
+/*para tablets*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    #nav-menu {
+        padding: 10px 30px;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container img {
+        width: 80%;
+    }
+
+    .info-content {
+        grid-template-columns: 1fr 1fr;
+    }
 }
