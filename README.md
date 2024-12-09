@@ -50,6 +50,12 @@ Dandole estilo al rewards.
 Página de menú completo.
 
 ---
+## Actividad 6
+![Captura de la página](https://i.postimg.cc/W1XnVjY1/image.png)
+
+Diseño responsivo.
+
+---
 ## Cómo Ejecutar el Proyecto
 
 ### Requisitos
