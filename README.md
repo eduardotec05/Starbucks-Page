@@ -44,6 +44,18 @@ Creación de la página de rewards en HTML.
 Dandole estilo al rewards.
 
 ---
+## Actividad 5
+![Captura de la página](https://i.postimg.cc/qv8L5yyy/image.png)
+
+Página de menú completo.
+
+---
+## Actividad 6
+![Captura de la página](https://i.postimg.cc/W1XnVjY1/image.png)
+
+Diseño responsivo.
+
+---
 ## Cómo Ejecutar el Proyecto
 
 ### Requisitos
