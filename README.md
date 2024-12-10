@@ -56,6 +56,12 @@ Página de menú completo.
 Diseño responsivo.
 
 ---
+## Actividad 7
+![Captura de la página](https://i.postimg.cc/nV204czF/image.png)
+
+Sección de iniciar sesión y registrarse.
+
+---
 ## Cómo Ejecutar el Proyecto
 
 ### Requisitos
