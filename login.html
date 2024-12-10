@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://seeklogo.com/images/S/starbucks-logo-B21BB4794A-seeklogo.com.png" type="image/x-icon">
+    <title>Iniciar sesión | Starbucks Rewards</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header class="header-rewards">
+        <nav id="nav-menu">
+            <div class="nav-left">
+                <a href="index.html"><img src="https://www.starbucks.com.mx/static/images/logo.svg" alt="Starbucks Logo" class="logo"></a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="rewards.html">REWARDS</a></li>
+                <li><a href="#" class="btn-locator">Localizar tienda</a></li>
+                <li><a href="login.html" class="btn-login">Inicia Sesión</a></li>
+                <li><a href="#" class="btn-join">Únete Ahora</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main class="left-container">
+        <section>
+        <div class="login-left">
+            <h1>Ingresa a tu cuenta🌟</h1>
+        </div>
+        </section>
+
+        <section class="right-container">
+        <div class="color-login">
+            <form class="login-format">
+                <div class="form-group">
+                    <label for="email">
+                        <span class="required">*</span> Ingresa tu email
+                    </label>
+                    <input type="email" id="email" name="email" required placeholder="Ingresa tu email">
+                </div>
+                <div class="form-group">
+                    <label for="password">
+                        <span class="required">*</span> Ingresa tu contraseña
+                    </label>
+                    <div class="password-input">
+                        <input type="password" id="password" name="password" required placeholder="Ingresa tu contraseña">
+                        
+                    </div>
+                </div>
+                <a href="/forgot-password" class="forgot-password">Olvidé mi contraseña</a>
+                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+                <div class="but-submit"><button type="submit" class="btn-submit">Iniciar Sesión</button></div>
+            </form>
+        </div>
+
+        <div class="rewards-login">
+            <h1>¡SER PARTE DE STARBUCKS REWARDS™ ES MUY FÁCIL! </h1>
+        </div>
+
+        <div class="unete-login">
+            <h1>Únete a Starbucks Rewards</h1>
+            <h3>Descarga la aplicación, registrate, obtén estrellas, disfruta de café gratis y algo más.</h3>
+        </div>
+
+        <div class="uneteahora-login">
+            <button class="join-login">¡Unete ahora!</button>
+            <img src="https://i.postimg.cc/gjLhdv7Y/chica-sbx.png" alt="chica">
+        </div>
+        <div>
+            <div class="info-links">
+                <div class="info-content">
+                    <div class="info-section">
+                        <h2>Sobre Nosotros</h2>
+                        <ul>
+                            <li><a href="#">Trabaja con nosotros</a></li>
+                            <li><a href="#">Historias Starbucks</a></li>
+                        </ul>
+                    </div>
+                    <div class="info-section">
+                        <h2>Atención al cliente</h2>
+                        <ul>
+                            <li><a href="#">Contáctanos</a></li>
+                            <li><a href="#">Facturas Electrónicas</a></li>
+                            <li><a href="#">Formas de comprar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <footer class="footer-main"">
+                <div class="footer-icons">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/2168/2168281.png" alt="facebook-logo"></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/4401/4401407.png" alt="instagram logo"></a>
+                    <a href=""><img src="https://img.freepik.com/psd-premium/icono-redondo-nuevo-logotipo-twitter-x-negro_1129635-4.jpg" alt="x-logo"></a>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/128/3669/3669688.png" alt="youtube-logo"></a>
+                </div>
+        
+                <div class="footer-links">
+                    <a href="#">Accesibilidad Web</a>
+                    <a href="#">Aviso de Privacidad</a>
+                    <a href="#">Boletines</a>
+                    <a href="#">Condiciones de uso</a>
+                    <a href="#">Mapa del sitio</a>
+                    <a href="#">Preferencias sobre cookies</a>
+                </div>
+        
+                <div class="footer-text">
+                    <p>Ⓒ 2024. Starbucks Cofee Company. Reservados todos los derechos</p>
+                </div>
+            </footer>
+        </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
