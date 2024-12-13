@@ -62,6 +62,12 @@ Diseño responsivo.
 Sección de iniciar sesión y registrarse.
 
 ---
+## Actividad 8
+![Captura de la página](https://i.postimg.cc/G2gDC6HW/image.png)
+
+Página de StarBucks terminada.
+
+---
 ## Cómo Ejecutar el Proyecto
 
 ### Requisitos
